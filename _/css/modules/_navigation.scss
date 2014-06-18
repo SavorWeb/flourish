@@ -1,0 +1,120 @@
+// ------------------------------------------------------------
+// Navigation module
+// ------------------------------------------------------------
+
+// Place your BEM/SMACSS style .scss modules in the modules folder
+
+.pagehead {
+
+	background-color: transparentize($neg, 0.3);
+	overflow-x: hidden;
+
+	@include break($d) {
+		//background-color: transparent;
+	}
+
+	.logo {
+		display: block;
+		float: left;
+		margin: 12px 0 9px;
+		max-width: 50%;
+		img {
+			width: 100%;
+		}
+		@include break($d) {
+			width: 25%;
+			img {
+				max-width: 300px;
+			}
+		}
+	}
+
+	#nav-toggle {
+		float: right;
+		margin: 0;
+		padding-bottom: 0px;
+		padding-left: 15px;
+		padding-right: 15px;
+		border-radius: 0;
+		@include break($d) {
+			display: none;
+		}
+	}
+
+	.nav-collapse {
+		text-transform: uppercase;
+		@include clearfix;
+		background-color: transparentize($neg, 0.4);
+		clear: both;
+		text-align: center;
+		font-weight: lighter;
+		padding-bottom: 0px;
+		position: relative;
+		margin: 0 -500%;
+		padding: 0 500%;
+		@include break($d) {
+			width: 75%;
+			margin: 27px 0 0;
+			padding: 0;
+			clear: none;
+			background-color: transparent;
+			float: right;
+			padding-bottom: 0;
+			//height: 60px;
+			// clear: both;
+			// margin: 0 -500%;
+	  		//padding: 0 500%;
+		}
+		ul {
+			@include clearfix;
+			margin: 0; // cancel out global ul li style
+			padding-top: 20px;
+			padding-bottom: 20px;
+			@include break($d) {
+				width: 100%;
+				padding: 0;
+				float: left;
+				clear: none;
+			}
+
+			li {
+				float: right;
+				width: 50%;
+				margin: 0;
+				list-style-type: none;
+
+				@include break($d) {
+					width: auto;
+					margin: 0 1.5%;
+				}
+
+				a {
+
+					@extend .sans;
+					font-size: em-font(19px);
+					display: inline-block;
+					width: 100%;
+					color: $pos;
+					padding: 20px 12px 15px;
+					background-color: transparent;
+					border-bottom: transparent 2px solid;
+
+					transition: background-color 0.2s ease-in-out;
+					-moz-transition: background-color 0.2s ease-in-out;
+					-webkit-transition: background-color 0.2s ease-in-out;
+
+					&:hover, &:active {
+						background-color: $primary;
+					}
+					@include break($d) {
+						padding: 0;
+						@include action {
+							background-color: transparent;
+							border-bottom: $primary 2px solid;
+						}
+					}
+				}
+			}
+		}
+	}
+}

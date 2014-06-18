@@ -1,0 +1,497 @@
+// ::Imports pre-render. Must be after reset
+// ------------------------------------------------------------
+@import "libs/required";
+@import "libs/reset";
+@import "libs/settings";
+@import "libs/mixins";
+@import "libs/placeholders";
+
+// Transformicon Color:
+$navicon-color: $pos;
+
+// Use SASS globbing to import all _.scss files in the module folder.
+// These should be independent modules that follow the BEM/SMACSS way
+@import "modules/*"; 
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
+
+/* ::Base styles */
+/* ------------------------------------------------------------ */
+
+$radius: 7px;
+
+html, body {
+	overflow-x: hidden;
+}
+
+html {
+	font-size: 100%;
+	@include break-max(768px, $IE9: false) { // Stop at precise width, as we're talking about devices
+		-webkit-text-size-adjust: 100%;	// Stops text scaling in iOS.
+	}
+}
+
+body {
+	@extend .font-body;
+	background: $body-color;
+	color: $base-color;
+	@include break($d) {
+		box-shadow: inset 0 0 130px 10px $secondary;
+	}
+}
+
+a {
+	color: $action;
+	text-decoration: none;
+	@include action { 	// Mixin for interactions (hover,focus,active)
+		color: $action-respond;
+	}
+	&:not(>img) {
+		@include force-wrap;
+	}
+}
+
+img {
+	max-width: 100%;
+}
+
+
+/* The wall post items */
+
+.facebookWall li{
+	//background: url('../img/divider.png') no-repeat center bottom;
+	list-style: none;
+
+	overflow: hidden;
+
+	position: relative;
+}
+
+/* The user/page avatar */
+
+.facebookWall li img.avatar{
+	float: left;
+	margin-right: 18px;
+}
+
+/* The user/page name */
+
+.facebookWall h2{
+	font-size:16px;
+	font-weight:normal;
+	margin-bottom: 5px;
+}
+
+/* The .status div container */
+
+.facebookWall .status{
+	@include break($b) {
+		width: 420px;
+		padding-left:65px;
+	}
+}
+
+/* Link share attachment */
+
+.facebookWall .attachment{
+	border-left: 1px solid #C4C4C4;
+	font-size: 12px;
+	margin-top: 14px;
+	overflow: hidden;
+	padding-left: 10px;
+}
+
+.facebookWall .attachment-data{
+	display:table-cell;
+	vertical-align:top;
+}
+
+.facebookWall img.picture{
+	float:left;
+	margin-right: 10px;
+}
+
+.fb {
+
+	header {
+		padding-bottom: 10px;
+		margin-bottom: 14px;
+		border-bottom: 1px #999 solid;
+		@include clearfix;
+		h1 {
+			float: left;
+		}
+	}
+	.fb-like {
+		float: right;
+		margin-top: -2px;
+	}
+}
+
+#wall {
+	h1 {
+		display: none;
+	}
+	img {width: auto;}
+}
+
+
+/* Posted date/time, number of likes and comments */
+
+.facebookWall p.meta{
+	color: #000;
+	font-size: 11px;
+	padding: 15px 0 0 65px;
+}
+
+div.fb-like.fb_iframe_widget.fb_iframe_widget_fluid {
+	width: auto !important;
+}
+
+.shim {
+	height: 30px;
+}
+
+.hero-headline {
+	font-family: 'bree_serifregular';
+	font-size: em-font(25px);
+	text-shadow: 0 0 15px darken($primary, 50%), 0 0 8px darken($primary, 80%), 0 1px 0px $primary, 0 2px 0px darken($primary, 10%), 0 3px 0px darken($primary, 20%), 0 4px 0px darken($primary, 30%);
+	// background-color: transparentize($neg, 0.2);
+	// display: inline-block;
+	// padding-left: 30px;
+	// padding-right: 30px;
+	text-transform: uppercase;
+	color: $pos;
+	text-align: right;
+	margin-bottom: 20px;
+	padding-top: 280px;
+	letter-spacing: 2px;
+	span {
+		display: block;
+		&:first-of-type {
+			margin-bottom: -8px;
+		}
+	}
+	@include break($c) {
+		padding-top: 0;
+		font-size: em-font(60px);
+		span {
+			&:first-of-type {
+				margin-bottom: -15px;
+			}
+		}
+	}
+}
+
+.main-cover {
+	background: url(../img/main-liz.jpg) no-repeat; 
+	background-position: -600px -50px;
+	margin-bottom: 30px;
+	@include break($b) {
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: center -60px;
+	}
+	min-height: 600px;
+	position: relative;
+
+	.row-bottom {
+		position: relative;
+		width: 100%;
+		@include break($b) {
+			bottom: 20px;
+			position: absolute;
+		}
+	}
+}
+
+.intro {
+	margin-bottom: 50px;
+	margin-top: -50px;
+}
+
+	.overlays {
+		padding: 30px;
+		border-radius: $radius;
+		margin-bottom: 25px;
+		@include break($d) {
+			//max-width: 45%;
+			margin-bottom: 0;
+		}
+	}
+
+	.feed {
+		background-color: $secondary;
+		h1 a, h2 a, a {
+			color: darken($secondary, 50%);
+			@include action {
+				color: #fff;
+			}
+		}
+	}
+
+	.welcome {
+		background-color: $pink;
+		font-size: em-font(20px);
+		h1 {
+			margin-bottom: 8px;
+		}
+		@include break($d) {
+			max-width: 98%;
+		}
+	}
+
+footer.pagefoot {
+	background: url(../img/lotus.jpg) no-repeat top center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	box-shadow: inset 100px 0 150px -50px #000, inset -100px 0 150px -50px #000;
+	color: $pos;
+	min-height: 200px;
+	padding: 20px 0 30px;
+	.social {
+		width: 100%;
+
+		clear: both;
+		li {
+			float: left;
+			margin-left: 5px;
+			a {
+				border-radius: 50px;
+				display: block;
+				background-color: transparentize($pos, 0.8);
+				@include action {
+					background-color: $primary;
+				}
+			}
+		}
+	}
+	.foot-nav {
+		margin-top: 15px;
+		ul {
+			width: 45%;
+			float: left;
+		}
+		li {
+			
+			font-family: 'bree_serifregular';
+			font-size: em-font(25px);
+			margin-bottom: 10px;
+			a {
+				color: $pos;
+				@include action {
+					text-shadow: 0 2px 0 $primary;
+				}
+			}
+		}
+		
+	}
+
+	.email {
+		margin-top: 20px;
+		p {
+			margin-bottom: 10px;
+			width: 75%;
+		}
+
+		small {
+			font-size: em-font(8px);
+			color: #ccc;
+
+			bottom: 0;
+			right: 0;
+		}
+
+		.sub-btn {
+			display: block;
+			background-image: url("../img/signup.png");
+			height: 125px;
+			width: 125px;
+			
+			right: -6px;
+			bottom: -26px;
+			position: absolute;
+			@include break($d) {
+				right: -56px;
+				bottom: auto;
+				top: 0px;
+			}
+			@include action {
+				background-image: url("../img/signup-active.png");				
+			}
+		}
+		@include break($d) {
+			float: right;
+			position: relative;
+		}
+	}
+}
+
+.typeset {
+
+	img {
+		max-width: 100%;
+		height: auto;
+		margin-bottom: 15px;
+		border-radius: $radius;
+		@include break($b) {
+			margin: 0 0 15px 30px;
+			float: right;
+			width: 40%;
+		}
+	}
+	.full-width {
+		margin: 0 0 30px 0;
+		clear: both;
+		width: 100%;
+	}
+	.right {
+
+		@include break($b) {
+			float: right;
+			margin: 0 0 15px 30px;
+			width: 40%;
+		}
+	}
+	.left {
+		@include break($b) {
+			float: left;
+			margin: 0 30px 15px 0;
+			width: 40%;
+		}
+	}
+
+	blockquote {
+		padding: 5%;
+		clear: both;
+		background-color: $secondary;
+		color: $pos;
+		border-radius: $radius;
+		&:before {
+			content: "“ ";
+		}
+		&:after {
+			content: " ”";	
+		}
+		@include break($b) {
+			clear: none;
+			float: right;
+		}
+	}
+}
+////////////
+// LAYOUT //
+////////////
+
+.row.typeset {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.typeset ul.acc {
+	margin-left: 0;
+	li {
+		background-color: lighten($secondary, 15%);
+	}
+}
+
+.acc li {
+	list-style-type: none;
+}
+
+.acc li .acc-head {
+	cursor: pointer;
+	position: relative;
+	padding: 20px;
+}
+
+.acc li .acc-head i {
+	position: absolute;
+	top: 22px;
+	right: 15px;
+}
+
+.acc-panel {
+	padding: 0px 20px 10px;
+}
+
+.feature {
+	width: 100%;
+	margin-bottom: 50px;
+	img {
+		border-radius: $radius;
+		margin-bottom: 20px;
+	}
+	h1 {
+		text-align: center;
+		border-bottom: 1px solid #000;
+		font-size: 22px !important;
+		padding-bottom: 5px;
+		color: lighten($primary, 10%);
+	}
+	h2 {
+		text-align: center;
+		font-size: 40px !important;
+		margin-top: -20px;
+	}
+	.snippet {
+		max-width: 80%;
+		margin: 0 auto;
+	}
+	.readmore {
+		float: right;
+		color: #ccc;
+		text-transform: uppercase;
+		font-family:  'bree_serifregular';
+		font-weight: lighter;
+		@include action {
+			color: $primary;
+		}
+	}
+}
+
+
+
+/* ::Import styles */
+/* ------------------------------------------------------------ */
+
+@import "libs/typography"; 					// Base level typography
+@import "libs/forms";						// Forms
+@import "add-ons/module-typeset"; 			// Specific typesetting
+@import "add-ons/grid"; 					// Grid system
+
+
+/* ::Print */
+/* ------------------------------------------------------------ */
+
+@media print {
+	body {
+		@include adjust-leading-to(2);
+		font-size: percentage(10 / 16);
+	}
+}
