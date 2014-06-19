@@ -4,6 +4,18 @@
 		<meta name="description" content="..." />
 		<meta name="keywords" content="..." />
 
+<style>
+	
+	.main-cover {
+		background-image: url(_/img/about.jpg);
+	}
+
+	.about {
+		border-bottom: 2px solid #F31D79;
+	}
+
+</style>
+
 	</head>
 
 <body>
@@ -14,7 +26,7 @@
 
 			<div class="row">
 				<h1 id="headline" class="editable hero-headline">
-					<span>The body achieves </span><span>what the mind believes.</span>
+					<span>Certified Health Coach and Fitness Trainer</span>
 				</h1>
 			</div>
 
@@ -23,30 +35,24 @@
 		</div>
 
 		<div id="content" class="row typeset editable">
-			<h1>Heading 1</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, id, vero, commodi ut aperiam corporis nisi laudantium explicabo quis consequatur debitis eligendi quasi consequuntur asperiores deserunt placeat eos dolor ipsa.</p>
 
-			<h2>Heading 2</h2>
-			<img src="http://www.placehold.it/500x150" alt="">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, omnis, dolore, quos, numquam facilis voluptatum consectetur minima alias molestiae libero quibusdam rem error adipisci dolorem repellat accusamus dignissimos doloribus et!</p>
-			<img class="full-width" src="http://www.placehold.it/1000x300" alt="">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, tempora, similique pariatur quo nostrum quia nam quaerat impedit optio commodi iste delectus nihil hic minus dolorum possimus sunt maxime dicta.</p>
-			<h3>Heading 3</h3>
-			<blockquote>
-				The only thing worse than being blind, is having sight, and no vision.
-				<span>Anonymous</span>
-			</blockquote>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, a non hic nam repellat dolorem voluptatum vero nihil quas beatae consequuntur eligendi et ipsum recusandae vitae magnam laborum laboriosam amet.</p>
-			<h4>Heading 4</h4>
-			<img class="left" src="http://www.placehold.it/400x300" alt="">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora quae iure eius enim praesentium quia doloremque. Modi, molestias, nisi, cumque pariatur sint quaerat ullam recusandae reprehenderit eos dolores perferendis quidem.</p>
-			<ul>
-				<li>Things</li>
-				<li>Things</li>
-				<li>Things</li>
-				<li>Things</li>
-				<li>Things</li>
-			</ul>
+<img src="media/photos/liz.jpg" alt="">
+
+<h1>Liz Barrett</h1>
+<h2>Certified Health Coach and Fitness Trainer</h2>
+
+<p>Growing up in a Greek, fabulous smelling home, I have always enjoyed delicious and healthy cooking. Homemade soups, roasted chicken, village salads, feta and olives were all part of my every day cuisine. As I went off to college and got older, I realized even more how the food we eat effect all aspects of our lives.
+</p>
+<p>While rooming with my best friend in college, as much as we tried to avoid the late night pizza we still gained the freshman pounds… That’s when my personal journey started in trying to find the “secret” to eating well, staying fit, and feeling great! Growing up I was not involved in team sports or terribly athletic, but during my college years I started running. I loved the sense of accomplishment and self confidence running gave me and till this day remains my “Zen”.
+</p>
+<p>Moving forward 10 years, one husband and three kids later, I experienced everything: lack of sleep, low energy, weight gain, a pre cancer lump, lack of confidence and overall restlessness. I began reading nutrition books and became fascinated on how food can effect ones physical and mental well being. As I read more, I realized if I toke care of myself I would not only be healthier, I would be less stressed and feel more confident. After preaching to my family about good nutrition, my husband decided to also be pro active on his health. But after his last physical in July, he was shocked to hear his cholesterol numbers was 287!! Knowing what a “health nut”, he declined the statin drug and changed his diet with my guidance. In four short weeks his cholesterol went down 100ps to 187! The power of food!
+</p>
+<p>During that summer I found the Institute for Integrative Nutrition. I received training in more than one hundred dietary theories and studied a variety of lifestyle coaching methods. I studied all the experts in the field, including Dr. Andrew Weil, Dr. Mark Hyman, David Wolfe, Deepak Chopra, among others. I also pursued my personal training certification, knowing I wanted to help others with their fitness goals and more importantly teach others the value of strengthen your body and mind.
+</p>
+<p>Personally, I discovered when I exercised with intention and ate nutritious food it boosted my energy, my confidence, and stabilized my weight. I also realized that health was more than just food and exercise but how we feel about ourselves, our careers, relationships, and sense of spirit. I realized that everyone is unique, with different lifestyles, preferences and goals. I started by health coaching business with the intent to make a difference in peoples health and happiness and inspiring them to be their best, not perfect selves. I believe preventive health is so important and second to that, feeling good and confident in your own skin. Nothing makes me happier than changing the way someone feels in their body, their vehicle in life.
+</p>
+<p>When you grow, stretch, get outside your comfort zone, you not only attract beauty in your world, you FLOURISH!!
+</p>
 		</div>
 
 		<?php include("_/inc/foot.php"); ?>

@@ -4,6 +4,18 @@
 		<meta name="description" content="..." />
 		<meta name="keywords" content="..." />
 
+<style>
+	
+	.main-cover {
+		background-image: url(_/img/contact.jpg);
+	}
+
+	.contact {
+		border-bottom: 2px solid #F31D79;
+	}
+
+</style>
+
 	</head>
 
 <body>

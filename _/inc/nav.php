@@ -7,12 +7,12 @@
 
 			<nav class="nav-collapse">
 				<ul>
-					<li><a href="/flourish/contact">Contact</a></li>
-					<li><a href="http://flourishwithliz.tumblr.com">Blog</a></li>
-					<li><a href="/flourish/loves">My Loves</a></li>
-					<li><a href="/flourish/praise">Praise</a></li>
-					<li><a href="/flourish/work">Work with me</a></li>
-					<li><a href="/flourish/about">About</a></li>
+					<li class="contact"><a href="/flourish/contact">Contact</a></li>
+					<li class="blog"><a href="http://flourishwithliz.tumblr.com">Blog</a></li>
+					<li class="loves"><a href="/flourish/loves">My Loves</a></li>
+					<li class="praise"><a href="/flourish/praise">Praise</a></li>
+					<li class="work"><a href="/flourish/work">Work with me</a></li>
+					<li class="about"><a href="/flourish/about">About</a></li>
 				</ul>
 			</nav>
 	</section>

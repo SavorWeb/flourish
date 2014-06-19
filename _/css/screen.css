@@ -782,6 +782,11 @@ footer.pagefoot .email .sub-btn:hover, footer.pagefoot .email .sub-btn:focus, fo
   }
 }
 
+.typeset article {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: #ccc 1px solid;
+}
 .typeset img {
   max-width: 100%;
   height: auto;

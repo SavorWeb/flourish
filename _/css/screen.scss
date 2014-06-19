@@ -354,6 +354,12 @@ footer.pagefoot {
 
 .typeset {
 
+	article {
+		padding-bottom: 20px;
+		margin-bottom: 20px;
+		border-bottom: #ccc 1px solid;
+	}
+
 	img {
 		max-width: 100%;
 		height: auto;

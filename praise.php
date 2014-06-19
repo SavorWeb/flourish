@@ -7,7 +7,11 @@
 <style>
 	
 	.main-cover {
-		background-image: url(_/img/lotus.jpg);
+		background-image: url(_/img/praise.jpg);
+	}
+
+	.praise {
+		border-bottom: 2px solid #F31D79;
 	}
 
 </style>
