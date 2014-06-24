@@ -37,6 +37,17 @@
 				customToggle: "#nav-toggle"
 			});
 		</script>
+
+<script src="_/js/masonry.min.js"></script>
+<script>
+
+	$('#praise').masonry({
+	  columnWidth: 73,
+	  itemSelector: 'blockquote'
+	});
+	
+</script>
+
 		<script src="_/js/facebook.min.js"></script>
 		<script src="_/js/jquery.tmpl.min.js"></script>
 

@@ -782,6 +782,23 @@ footer.pagefoot .email .sub-btn:hover, footer.pagefoot .email .sub-btn:focus, fo
   }
 }
 
+.typeset strong {
+  font-size: 0.75em;
+  margin-bottom: 15px;
+  background-color: #f2f2f2;
+  box-shadow: 0 0 0 10px #f2f2f2;
+  display: block;
+}
+.typeset small {
+  font-size: 0.375em;
+  clear: both;
+  display: block;
+  font-weight: thin;
+  font-family: sans-serif;
+  color: #bfbfbf;
+  letter-spacing: 1px;
+  margin-top: -5px;
+}
 .typeset article {
   padding-bottom: 20px;
   margin-bottom: 20px;
@@ -835,17 +852,21 @@ footer.pagefoot .email .sub-btn:hover, footer.pagefoot .email .sub-btn:focus, fo
   }
 }
 .typeset blockquote {
+  width: 100%;
+  margin-bottom: 10px;
   padding: 5%;
   clear: both;
   background-color: #b5d77f;
-  color: white;
-  border-radius: 7px;
+  color: black;
+  border-radius: 5px;
 }
-.typeset blockquote:before {
-  content: "“ ";
+.lt-ie9 .typeset blockquote {
+  width: 48%;
 }
-.typeset blockquote:after {
-  content: " ”";
+@media screen and (min-width: 600px) {
+  .typeset blockquote {
+    width: 48%;
+  }
 }
 .lt-ie9 .typeset blockquote {
   clear: none;
@@ -856,6 +877,19 @@ footer.pagefoot .email .sub-btn:hover, footer.pagefoot .email .sub-btn:focus, fo
     clear: none;
     float: right;
   }
+}
+.typeset blockquote p {
+  font-size: 0.625em;
+  font-style: normal !important;
+}
+.typeset blockquote p:before {
+  content: "“ ";
+}
+.typeset blockquote p:after {
+  content: " ”";
+}
+.typeset blockquote i {
+  font-size: 0.375em;
 }
 
 .row.typeset {

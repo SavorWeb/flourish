@@ -354,6 +354,25 @@ footer.pagefoot {
 
 .typeset {
 
+	strong {
+		font-size: em-font(12px);
+		margin-bottom: 15px;
+		background-color: darken(#fff, 5%);
+		box-shadow: 0 0 0 10px darken(#fff, 5%);
+		display: block; 
+	}
+
+	small {
+		font-size: em-font(6px);
+		clear: both;
+		display: block;
+		font-weight: thin;
+		font-family: sans-serif;
+		color: darken(#fff, 25%);
+		letter-spacing: 1px;
+		margin-top: -5px;
+	}
+
 	article {
 		padding-bottom: 20px;
 		margin-bottom: 20px;
@@ -393,20 +412,32 @@ footer.pagefoot {
 	}
 
 	blockquote {
+	
+		width: 100%;
+		@include break($c) {width: 48%;}
+		margin-bottom: 10px;
+	
 		padding: 5%;
 		clear: both;
 		background-color: $secondary;
-		color: $pos;
-		border-radius: $radius;
-		&:before {
-			content: "“ ";
-		}
-		&:after {
-			content: " ”";	
-		}
+		color: $neg;
+		border-radius: 5px;
 		@include break($b) {
 			clear: none;
 			float: right;
+		}
+		p {
+			font-size: em-font(10px);
+			font-style: normal !important;
+			&:before {
+				content: "“ ";
+			}
+			&:after {
+				content: " ”";	
+			}
+		}
+		i {
+			font-size: em-font(6px);
 		}
 	}
 }
