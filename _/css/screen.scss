@@ -133,13 +133,16 @@ img {
 .fb {
 
 	header {
-		padding-bottom: 10px;
 		margin-bottom: 14px;
+		padding: 10px 0;
 		border-bottom: 1px #999 solid;
 		@include clearfix;
 		h1 {
 			float: left;
 		}
+	}
+	.facebookWall .status {
+		width: 100%;
 	}
 	.fb-like {
 		float: right;
@@ -243,7 +246,8 @@ div.fb-like.fb_iframe_widget.fb_iframe_widget_fluid {
 	}
 
 	.feed {
-		background-color: $secondary;
+		// background-color: $secondary;
+		margin-top: 20px;
 		h1 a, h2 a, a {
 			color: darken($secondary, 50%);
 			@include action {

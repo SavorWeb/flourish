@@ -534,14 +534,17 @@ img {
 }
 
 .fb header {
-  padding-bottom: 10px;
   margin-bottom: 14px;
+  padding: 10px 0;
   border-bottom: 1px #999 solid;
   overflow: hidden;
   *zoom: 1;
 }
 .fb header h1 {
   float: left;
+}
+.fb .facebookWall .status {
+  width: 100%;
 }
 .fb .fb-like {
   float: right;
@@ -664,7 +667,7 @@ div.fb-like.fb_iframe_widget.fb_iframe_widget_fluid {
 }
 
 .feed {
-  background-color: #b5d77f;
+  margin-top: 20px;
 }
 .feed h1 a, .feed h2 a, .feed a {
   color: #314215;
@@ -1059,19 +1062,23 @@ input[type="checkbox"]:focus {
 input, textarea {
   width: 100%;
   border: 0;
-  background: white;
+  background: #f2f2f2;
   box-shadow: none;
   padding: 10px;
   outline: 0;
+  margin-bottom: 15px;
 }
 input:focus, textarea:focus {
   outline: 1px solid #f31d79;
 }
 
-form button {
+form {
+  margin-bottom: 15px;
+}
+form button, form .btn {
   color: white;
   background-color: #f31d79;
-  margin: 10px 0;
+  margin-bottom: 10px;
   padding: 10px;
 }
 
