@@ -10,8 +10,8 @@ $(document).ready(function(){
 	// that you will need to generate as explained in the tutorial:
 	
 	$('#wall').facebookWall({
-		id:'524500907614152',
-		access_token:'763971193627319|IAUf3wjhHJoSZQLB2tRdI71AacA'
+		id:'447582728633868',
+		access_token:'748607548515254|WExkDEKmHWT0k411yJNiFYg5cxs'
 	});
 
 });

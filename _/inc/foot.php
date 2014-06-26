@@ -22,10 +22,14 @@
 					</div>
 				</div>
 				<div class="colspan12-4 as-grid with-gutter email">
-					<p>Get my wellness tips, recipes and updates emailed to you!</p>
-					<input type="text">
-					<a class="sub-btn" href="#"></a>
-					<small>© Liz Barrett. All rights reserved.</small>
+					<form action="http://savorweb.createsend.com/t/j/s/bdhidr/" method="post">
+						<p>Get my wellness tips, recipes and updates emailed to you!</p>
+						<label style="display:none;" for="fieldEmail">Email</label>
+						<input id="fieldEmail" name="cm-bdhidr-bdhidr" type="email" required />
+
+						<button class="sub-btn" type="submit"></button>
+						<small>© Liz Barrett. All rights reserved.</small>
+					</form>
 				</div>
 			</div>
 		</footer>
@@ -41,10 +45,14 @@
 <script src="_/js/masonry.min.js"></script>
 <script>
 
-	$('#praise').masonry({
-	  columnWidth: 73,
-	  itemSelector: 'blockquote'
-	});
+    // Don't execute if we're in the Live Editor
+    if( !window.isCMS ) {
+		$('#praise').masonry({
+		  columnWidth: 73,
+		  itemSelector: 'blockquote'
+		});
+	}
+
 	
 </script>
 

@@ -26,7 +26,7 @@
 
 			<div class="row">
 				<h1 id="headline" class="editable hero-headline">
-					<span>The body achieves </span><span>what the mind believes.</span>
+					<span>Services and </span><span>programs offered</span>
 				</h1>
 			</div>
 
@@ -34,11 +34,14 @@
 
 	</div>
 
-	<div id="content" class="row typeset editable">
-		<h1>SERVICES/PROGRAMS</h1>
+<div class="editable" id="articles">
 
-		<h1>FLOURISH: Fat Loss Finality </h1>
+<article class="row typeset repeatable">
+<div class="colspan12-12">
+	<h1>FLOURISH: Fat Loss Finality </h1>
 		<p>This 8-week program is specifically designed for your own personal metabolism. No more cookie cutter programs. No one-size-fits-all. Nothing is left to chance. We are here to burn fat, and burn fat we will! This is the LAST time I want you to buckle down and burn fat – we are on a mission here, and I will take you to the finish line.</p>
+
+		<img class="right" src="media/photos/yoga.jpg" alt="">
 
 		<p>Did you know that it is your hormones that make the difference in how you store or burn fat? You might be eating a measly 1,200 calories a day and working out with Olympic vigor and STILL not drop weight ~ all due to pesky hormonal imbalances. 
 		</p>
@@ -48,8 +51,10 @@
 		</p>
 		<p>Your skin will radiate, your abs will start showing and best of all? You will not be spending hours doing cardio or weight training. And THAT is a secret that most magazines and gimmicky diets do NOT want you to know. There is no starving, no skimping, and no excessive exercising required to get your body fat to burn off. 
 		</p>
-		<h2>Who is the Flourish Plan right for? 
-		</h2>
+		</div>
+
+		<div class="colspan12-6 as-grid">
+		<h2>Who is the Flourish Plan right for?</h2>
 
 		<ul>
 			<li>Women who have tried at least three diets in the past 18 months and either failed to reach their goal, or reached their goal and regained the weight 
@@ -61,7 +66,8 @@
 			<li>Women who want to see maximum results in 8 weeks. 
 			</li>
 		</ul>
-
+</div>
+<div class="colspan12-6 as-grid">
 		<h3>This Flourish Plan includes:</h3>
 
 		<ul>
@@ -77,15 +83,23 @@
 			</li>
 		</ul>
 		<p>Investment: $600.00 (renewable 8-week packages are available for $400 each if you need to continue on to a final fat loss goal)</p>
-
+</div>
+</article>
+<article class="row typeset repeatable">
+<div class="colspan12-12">
+		
+		<img class="right" src="media/photos/run-mom.jpg" alt="">
 
 		<h1>FLOURISH FOR THE FAM: ENERGY AND PERFORMANCE IN YOU AND YOUR FAMILY
 		</h1>
 		<p>
 			This Flourish For Family Plan is specifically designed to optimize your nutrition for energy, and also guide your family in the right choices for all their meals so they are not sluggish and can preform their best in work, school and sports.  
 		</p>
+
 		<p>My #1 nutritional focus is to limit sugar intake, especially in children. This doesn't mean doom and gloom. I will give you and your family encouragement, inspiration and a delicious plan to lead them to their healthiest and happiest selves. When you're healthy and full of energy, you're upbeat, mood-stabilized, and performing at top levels in life – athletics, school, and work. EVERY family can benefit from this kind of coaching. 
 		</p>
+		</div>
+<div class="colspan12-6 as-grid">
 		<h2>Who is the Flourish Family Plan right for? 
 		</h2>
 		<ul>
@@ -94,7 +108,8 @@
 			<li>Health conscious adults who are watching fat, salt, sugar, gluten, etc. </li>
 			<li>Active, energetic families...or those who WANT to be! </li>
 		</ul>
-
+</div>
+<div class="colspan12-6 as-grid">
 		<h3>What does the Flourish Family Plan include? 
 		</h3>
 
@@ -111,6 +126,12 @@
 		</p>
 		<strong>SUGAR BUST BONUS: Liz will help you create 10 new recipes to suit your family's tastebuds ~ she feels strongly that every family should know how to replace high sugar, high fat favorites with amazing substitutes that will stop the grumbling and keep everyone happy, with level blood sugar and mental focus. 
 		</strong>
+		</div>
+</article>
+<article class="row typeset repeatable">
+<div class="colspan12-12">
+
+		<img src="media/photos/yoga2.jpg" alt="" class="right">
 
 		<h1>LIZ SIGNATURE 6 MONTH PROGRAM
 		</h1>
@@ -125,9 +146,10 @@
 		</p>
 		<p>I will recommend and support you with a fitness endeavor, be it a 5k run, a competitive swim, obstacle race, or even a half or full marathon. I will help you select what fits your personality and lifestyle. This is super important, because having a goal, other than fat loss, muscle gain, or fitting in your skinny jeans is such a rewarding experience and truly makes you appreciate the miracle of your body!
 		</p>
-
-		<h3>Who is the Liz Signature Program right for? 
-		</h3>
+</div>
+<div class="colspan12-6 as-grid">
+		<h2>Who is the Liz Signature Program right for? 
+		</h2>
 
 		<ul>
 			<li>Women who are stressed out, burned out, or getting there</li>
@@ -136,7 +158,8 @@
 			<li>Women who want clear, simple, delicious recipes on hand</li>
 			<li>Women who know that support from a coach is needed </li>
 		</ul>
-
+</div>
+<div class="colspan12-6 as-grid">
 		<h3>This program includes:
 		</h3>
 		<ul>
@@ -161,9 +184,17 @@
 			<li>Revisions or Updated Goals mid program to keep you motivated.
 			</li>
 			<li>A NEW you, flourishing in every aspect of your life!
-			</li></ul>
+			</li>
+
+		</ul>
 			<p>Investment: $1,800.00 (renewable 6-month packages are available at $1,200)
 			</p>
+</div>
+</article>
+<article class="row typeset repeatable">
+<div class="colspan12-12">
+
+			<img src="media/photos/parent-cooking.jpg" alt="" class="right">
 
 			<h1>COOKING CLASSES
 			</h1>
@@ -175,7 +206,8 @@
 
 			<p>Liz offers in-home cooking classes (great for your family, teens, sisters, cousins, and girlfriends!!) and classes at local kitchen/retail stores. These appointments and classes sell out quickly, so be sure to RSVP for the classes that you see on the event calendar ~ we cannot wait to meet you and make your mealtimes wonderful! 
 			</p>
-
+</div>
+<div class="colspan12-6 as-grid">
 			<h2>Ladies Lunch and Learns
 			</h2>
 
@@ -185,7 +217,8 @@
 			</p>
 			<p>Please check the Events calendar and email me to get registered for a Lunch and Learn. Bring your neighbor, sister, aunt, mother, cousin, or best friend. Chances are you will know some of the ladies and you'll make new friends & learn great things. 
 			</p>
-
+</div>
+<div class="colspan12-6 as-grid">
 			<h3>SUPPLEMENTS: Why I choose Isagenix</h3>
 
 			<p>Eating real whole foods is superior to any supplement but it is also very hard to get all your nutrients and meals in during the day with food.  
@@ -196,9 +229,14 @@
 			</p>
 			<p>Isagenix is the only protein meal replacement that I found that provides as much as it does: superior taste, no artificial flavors/colors, whey from grass fed cows, no soy or gluten, perfect 1:1 carb to protein ratio, and is produced by a company that stands by its product 100%. Isagenix also offers me a way to work with incredible people who share my values for world class health, and it gives everyone the opportunity to benefit from the amazing company.
 			</p>
+</div>
+</article>
+<article class="row typeset repeatable">
+<div class="colspan12-12">
 
-			<h3>Products I personally use and recommend <small>(though I will be glad to consult with you and give you individual recommendations)</small></h3>
-			
+
+			<h1>Products I personally use and recommend <small>(though I will be glad to consult with you and give you individual recommendations)</small></h1>
+						<img src="media/photos/strech.jpg" alt="" class="right">
 			<ul>
 				<li><b>Meal Replacement Shakes:</b> I use Isalean and IsaPro every morning after my workout. This is the best whey protein available and contributes to fat loss, muscle building, and super energy. 
 				</li>
@@ -212,7 +250,11 @@
 				</li>
 				<li><b>Isa Delights:</b> These little yummy chocolates are GOOD for you! Yep, they have green tea and actually speed up your metabolism and curb your cravings. Simply divine! A chocolate a day keeps cravings at bay. ;-) 
 				</li>
-				<li><b>IsaLeans Bars:</b> I personally do not eat a lot of protein bars but my kids love these. They have 18 grams of protein, are low glycemic and are made with whey (not soy) protein. Delicious, multiple flavors, easy and portable solutions to eating on the go or snacking smart. </ul>
-				</div>
-			</li>
+				<li><b>IsaLeans Bars:</b> I personally do not eat a lot of protein bars but my kids love these. They have 18 grams of protein, are low glycemic and are made with whey (not soy) protein. Delicious, multiple flavors, easy and portable solutions to eating on the go or snacking smart. </li></ul>
+</div>
+</article>
+</div>
+
+			
+			
 			<?php include("_/inc/foot.php"); ?>

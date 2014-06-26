@@ -750,8 +750,12 @@ footer.pagefoot .email small {
   bottom: 0;
   right: 0;
 }
+footer.pagefoot .email input {
+  border-radius: 5px;
+}
 footer.pagefoot .email .sub-btn {
   display: block;
+  background-color: transparent;
   background-image: url("../img/signup.png");
   height: 125px;
   width: 125px;
@@ -785,6 +789,14 @@ footer.pagefoot .email .sub-btn:hover, footer.pagefoot .email .sub-btn:focus, fo
   }
 }
 
+article {
+  padding: 20px 0;
+  border-bottom: #ccc 2px solid;
+}
+article:last-of-type {
+  margin-bottom: 60px;
+}
+
 .typeset strong {
   font-size: 0.75em;
   margin-bottom: 15px;
@@ -800,12 +812,8 @@ footer.pagefoot .email .sub-btn:hover, footer.pagefoot .email .sub-btn:focus, fo
   font-family: sans-serif;
   color: #bfbfbf;
   letter-spacing: 1px;
-  margin-top: -5px;
-}
-.typeset article {
-  padding-bottom: 20px;
-  margin-bottom: 20px;
-  border-bottom: #ccc 1px solid;
+  margin-top: 5px;
+  line-height: 19px;
 }
 .typeset img {
   max-width: 100%;
@@ -814,15 +822,15 @@ footer.pagefoot .email .sub-btn:hover, footer.pagefoot .email .sub-btn:focus, fo
   border-radius: 7px;
 }
 .lt-ie9 .typeset img {
-  margin: 0 0 15px 30px;
-  float: right;
-  width: 40%;
+  margin: 0 0 30px 0;
+  clear: both;
+  width: 100%;
 }
 @media screen and (min-width: 420px) {
   .typeset img {
-    margin: 0 0 15px 30px;
-    float: right;
-    width: 40%;
+    margin: 0 0 30px 0;
+    clear: both;
+    width: 100%;
   }
 }
 .typeset .full-width {
@@ -859,7 +867,10 @@ footer.pagefoot .email .sub-btn:hover, footer.pagefoot .email .sub-btn:focus, fo
   margin-bottom: 10px;
   padding: 5%;
   clear: both;
-  background-color: #b5d77f;
+  background-color: #f8fbf4;
+  border: 1px solid #b5d77f;
+  border-bottom-width: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   color: black;
   border-radius: 5px;
 }

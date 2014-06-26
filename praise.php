@@ -34,7 +34,7 @@
 
 		</div>
 
-		<div id="content" class="row typeset editable">
+		<div class="row typeset">
 			<h1>Praise</h1>
 	<div id="praise" class="editable">
 	<blockquote class="repeatable">

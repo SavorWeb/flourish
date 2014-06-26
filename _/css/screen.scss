@@ -330,9 +330,14 @@ footer.pagefoot {
 			bottom: 0;
 			right: 0;
 		}
+		
+		input {
+			border-radius: 5px;
+		}
 
 		.sub-btn {
 			display: block;
+			background-color: transparent; 
 			background-image: url("../img/signup.png");
 			height: 125px;
 			width: 125px;
@@ -356,6 +361,15 @@ footer.pagefoot {
 	}
 }
 
+	article {
+
+		padding: 20px 0;
+		border-bottom: #ccc 2px solid;
+		&:last-of-type {
+			margin-bottom: 60px;
+		}
+	}
+
 .typeset {
 
 	strong {
@@ -374,13 +388,8 @@ footer.pagefoot {
 		font-family: sans-serif;
 		color: darken(#fff, 25%);
 		letter-spacing: 1px;
-		margin-top: -5px;
-	}
-
-	article {
-		padding-bottom: 20px;
-		margin-bottom: 20px;
-		border-bottom: #ccc 1px solid;
+		margin-top: 5px;
+		line-height: 19px;
 	}
 
 	img {
@@ -389,9 +398,9 @@ footer.pagefoot {
 		margin-bottom: 15px;
 		border-radius: $radius;
 		@include break($b) {
-			margin: 0 0 15px 30px;
-			float: right;
-			width: 40%;
+			margin: 0 0 30px 0;
+			clear: both;
+			width: 100%;
 		}
 	}
 	.full-width {
@@ -400,7 +409,6 @@ footer.pagefoot {
 		width: 100%;
 	}
 	.right {
-
 		@include break($b) {
 			float: right;
 			margin: 0 0 15px 30px;
@@ -423,7 +431,10 @@ footer.pagefoot {
 	
 		padding: 5%;
 		clear: both;
-		background-color: $secondary;
+		background-color: lighten($secondary, 30%);
+		border: 1px solid $secondary;
+		border-bottom-width: 8px;
+		box-shadow: 0 2px 5px rgba(0,0,0,0.1);	
 		color: $neg;
 		border-radius: 5px;
 		@include break($b) {

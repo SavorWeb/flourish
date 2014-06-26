@@ -7,7 +7,7 @@ $phone = strip_tags($_POST['phone']);
 $message = strip_tags($_POST['message']);
 
 // Send Message
-$success = mail( "maskellryan@gmail.com", "Webmail",
+$success = mail( "lizbarrett46@hotmail.com", "Webmail",
 "Name: $name\nEmail: $email\nPhone: $phone\nMessage: $message\n",
 "From: $name <$email>" );
 

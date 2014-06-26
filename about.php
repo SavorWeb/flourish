@@ -8,6 +8,7 @@
 	
 	.main-cover {
 		background-image: url(_/img/about.jpg);
+		background-position: center -150px;
 	}
 
 	.about {
@@ -26,7 +27,7 @@
 
 			<div class="row">
 				<h1 id="headline" class="editable hero-headline">
-					<span>Certified Health Coach and Fitness Trainer</span>
+					<span>Certified Health Coach</span><span>and Fitness Trainer</span>
 				</h1>
 			</div>
 
@@ -36,10 +37,9 @@
 
 		<div id="content" class="row typeset editable">
 
-<img src="media/photos/liz.jpg" alt="">
+<img class="right" src="media/photos/liz.jpg" alt="">
 
 <h1>Liz Barrett</h1>
-<h2>Certified Health Coach and Fitness Trainer</h2>
 
 <p>Growing up in a Greek, fabulous smelling home, I have always enjoyed delicious and healthy cooking. Homemade soups, roasted chicken, village salads, feta and olives were all part of my every day cuisine. As I went off to college and got older, I realized even more how the food we eat effect all aspects of our lives.
 </p>
