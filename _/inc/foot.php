@@ -10,14 +10,14 @@
 					</ul>
 					<div class="foot-nav">
 						<ul class="clearfix">
-							<li><a href="#">About</a></li>
-							<li><a href="#">Work with me</a></li>
-							<li><a href="#">Praise</a></li>
+							<li><a href="/about">About</a></li>
+							<li><a href="/work">Work with me</a></li>
+							<li><a href="/praise">Praise</a></li>
 						</ul>
 						<ul class="clearfix">
-							<li><a href="#">My Loves</a></li>
-							<li><a href="#">Blog</a></li>
-							<li><a href="#">Contact</a></li>
+							<li><a href="/loves">My Loves</a></li>
+							<li><a href="http://flourishwithliz.tumblr.com">Blog</a></li>
+							<li><a href="/contact">Contact</a></li>
 						</ul>
 					</div>
 				</div>
