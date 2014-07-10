@@ -64,7 +64,7 @@
 				<h2>Greek Turkey Sliders</h2>
 				<div class="snippet">
 					<p>Full of flavor and packed with protein, these Greek sliders are not only super easy, your whole family will love them and make for a fun Greek themed party. Just add a little ouzu!</p>
-					<a href="/flourish/recipes" class="readmore">Read More</a>
+					<a href="/recipes" class="readmore">Read More</a>
 				</div>
 			</div>
 		</div>
@@ -76,7 +76,7 @@
 				<h2>Workout Success</h2>
 				<div class="snippet">
 					<p>Working out and staying fit is a lifestyle with many benefits. But without a plan, life can get hectic, and your good intention may not always happen. Here are my seven top tips for your workout success.</p>
-					<a href="/flourish/lifestyle-tips" class="readmore">Read More</a>
+					<a href="/lifestyle-tips" class="readmore">Read More</a>
 				</div>
 			</div>
 			<div class="colspan12-4 as-grid with-gutter">
@@ -94,7 +94,7 @@
 				<h2>HIIT: high intensity interval training</h2>
 				<div class="snippet">
 					<p>Looking for a way to burn fat in less time while not losing precious lean muscle? High Intensity Interval Training may be just what you are looking for!</p>
-					<a href="/flourish/exercise-tips" class="readmore">Read More</a>
+					<a href="/exercise-tips" class="readmore">Read More</a>
 				</div>
 			</div>
 		</div>

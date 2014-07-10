@@ -422,14 +422,17 @@ footer.pagefoot {
 			width: 40%;
 		}
 	}
-
+	
 	blockquote {
 	
 		width: 100%;
-		@include break($c) {width: 48%;}
 		margin-bottom: 10px;
-	
-		padding: 5%;
+		@include break($c) {width: 48%;}
+		@include break($b) {
+			clear: none;
+			float: right;
+		}
+		padding: 4%;
 		clear: both;
 		background-color: lighten($secondary, 30%);
 		border: 1px solid $secondary;
@@ -437,23 +440,19 @@ footer.pagefoot {
 		box-shadow: 0 2px 5px rgba(0,0,0,0.1);	
 		color: $neg;
 		border-radius: 5px;
-		@include break($b) {
-			clear: none;
-			float: right;
+	}
+	.quote {
+		font-size: em-font(10px);
+		font-style: normal !important;
+		&:before {
+			content: "“ ";
 		}
-		p {
-			font-size: em-font(10px);
-			font-style: normal !important;
-			&:before {
-				content: "“ ";
-			}
-			&:after {
-				content: " ”";	
-			}
+		&:after {
+			content: " ”";	
 		}
-		i {
-			font-size: em-font(6px);
-		}
+	}
+	.source {
+		font-size: em-font(6px);
 	}
 }
 ////////////

@@ -2,11 +2,11 @@
 			<div class="row">
 				<div class="colspan12-6 as-grid">
 					<ul class="social clearfix">
-						<li><a href="https://www.facebook.com/LizBarrettHealth?ref=hl"><img src="_/img/facebook.png" alt=""></a></li>
-						<li><a href="http://www.twitter.com/flourishwithliz"><img src="_/img/twitter.png" alt=""></a></li>
-						<li><a href="http://instagram.com/lizbarrett46"><img src="_/img/instagram.png" alt=""></a></li>
-						<li><a href="http://www.pinterest.com/lizbarrett46/"><img src="_/img/pinterest.png" alt=""></a></li>
-						<li><a href="www.linkedin.com/pub/liz-barrett/3a/123/122"><img src="_/img/linkedin.png" alt=""></a></li>
+						<li><a href="https://www.facebook.com/FlourishWithLiz"><img src="_/img/facebook.png" alt=""></a></li>
+						<li><a href="http://www.twitter.com/FlourishWithLiz"><img src="_/img/twitter.png" alt=""></a></li>
+						<li><a href="http://instagram.com/FlourishWithLiz"><img src="_/img/instagram.png" alt=""></a></li>
+						<li><a href="http://www.pinterest.com/FlourishWithLiz/"><img src="_/img/pinterest.png" alt=""></a></li>
+						<li><a href="http://www.linkedin.com/in/lizbarrett46"><img src="_/img/linkedin.png" alt=""></a></li>
 					</ul>
 					<div class="foot-nav">
 						<ul class="clearfix">
@@ -46,7 +46,9 @@
 <script>
 
     // Don't execute if we're in the Live Editor
-    if( !window.isCMS ) {
+    if ( window.isCMS ) {
+    	$('#praise .repeatable').css( "width", "100%");
+    } else {
 		$('#praise').masonry({
 		  columnWidth: 73,
 		  itemSelector: 'blockquote'

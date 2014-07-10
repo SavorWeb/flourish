@@ -865,7 +865,7 @@ article:last-of-type {
 .typeset blockquote {
   width: 100%;
   margin-bottom: 10px;
-  padding: 5%;
+  padding: 4%;
   clear: both;
   background-color: #f8fbf4;
   border: 1px solid #b5d77f;
@@ -892,17 +892,17 @@ article:last-of-type {
     float: right;
   }
 }
-.typeset blockquote p {
+.typeset .quote {
   font-size: 0.625em;
   font-style: normal !important;
 }
-.typeset blockquote p:before {
+.typeset .quote:before {
   content: "“ ";
 }
-.typeset blockquote p:after {
+.typeset .quote:after {
   content: " ”";
 }
-.typeset blockquote i {
+.typeset .source {
   font-size: 0.375em;
 }
 
