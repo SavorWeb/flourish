@@ -67,7 +67,7 @@
 			</li>
 		</ul>
 </div>
-<div class="colspan12-6 as-grid">
+<div class="colspan12-6 as-grid with-gutter">
 		<h3>This Flourish Plan includes:</h3>
 
 		<ul>
@@ -109,7 +109,7 @@
 			<li>Active, energetic families...or those who WANT to be! </li>
 		</ul>
 </div>
-<div class="colspan12-6 as-grid">
+<div class="colspan12-6 as-grid with-gutter">
 		<h3>What does the Flourish Family Plan include? 
 		</h3>
 
@@ -159,7 +159,7 @@
 			<li>Women who know that support from a coach is needed </li>
 		</ul>
 </div>
-<div class="colspan12-6 as-grid">
+<div class="colspan12-6 as-grid with-gutter">
 		<h3>This program includes:
 		</h3>
 		<ul>
@@ -218,7 +218,7 @@
 			<p>Please check the Events calendar and email me to get registered for a Lunch and Learn. Bring your neighbor, sister, aunt, mother, cousin, or best friend. Chances are you will know some of the ladies and you'll make new friends & learn great things. 
 			</p>
 </div>
-<div class="colspan12-6 as-grid">
+<div class="colspan12-6 as-grid with-gutter">
 			<h3>SUPPLEMENTS: Why I choose Isagenix</h3>
 
 			<p>Eating real whole foods is superior to any supplement but it is also very hard to get all your nutrients and meals in during the day with food.  
