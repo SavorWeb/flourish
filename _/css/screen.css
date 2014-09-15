@@ -715,6 +715,7 @@ footer.pagefoot .social li a {
   border-radius: 50px;
   display: block;
   background-color: rgba(255, 255, 255, 0.2);
+  width: 40px;
 }
 footer.pagefoot .social li a:hover, footer.pagefoot .social li a:focus, footer.pagefoot .social li a:active {
   background-color: #f31d79;

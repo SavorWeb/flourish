@@ -7,6 +7,7 @@
 						<li><a href="http://instagram.com/FlourishWithLiz"><img src="_/img/instagram.png" alt=""></a></li>
 						<li><a href="http://www.pinterest.com/FlourishWithLiz/"><img src="_/img/pinterest.png" alt=""></a></li>
 						<li><a href="http://www.linkedin.com/in/lizbarrett46"><img src="_/img/linkedin.png" alt=""></a></li>
+						<li><a href="https://plus.google.com/115394723332093168433/"><img src="_/img/google+.png" alt=""></a></li>
 					</ul>
 					<div class="foot-nav">
 						<ul class="clearfix">

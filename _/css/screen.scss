@@ -289,6 +289,7 @@ footer.pagefoot {
 				border-radius: 50px;
 				display: block;
 				background-color: transparentize($pos, 0.8);
+				width: 40px;
 				@include action {
 					background-color: $primary;
 				}
